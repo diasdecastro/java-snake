@@ -151,7 +151,7 @@ public class GameField extends JPanel implements ActionListener {
     }
 
     private void endGame(Graphics g){
-        timer.stop();
+//        timer.stop();
         gameRunning = false;
         String txt1 = "Game Over";
         String txt2 = "Press Space to play again";

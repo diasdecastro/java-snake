@@ -18,8 +18,8 @@ public class GameWindow extends JFrame{
 
     public static void restartGame(){
         window.dispose();
-        String[] args = {};
-        main(args);
+        window = new GameWindow();
+        window.setVisible(true);
     }
 
     public static void main(String[] args){
