@@ -1,0 +1,6 @@
+C:\mywork> set path=%path%;C:\Program Files\Java\jdk-14.0.1\bin
+
+C:\mywork> javac filenamehere.java
+
+C:\mywork> java filenamehere
+
