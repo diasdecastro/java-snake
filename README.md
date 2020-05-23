@@ -5,6 +5,8 @@ as well as building a highly interactive system that uses threads to manipulate 
 
 # Instructions
 
+Run GameWindow.java to start the game
+
 Snake Movement:
 
 **W = up** \
