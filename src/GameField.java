@@ -115,7 +115,6 @@ public class GameField extends JPanel implements ActionListener {
 
     private void drawBorders(Graphics g){
         g.setColor(Color.white);
-//      g.fillRect(500,0, 5, 500);
         g.fillRect(0,500, 500, 5);
         //score text
         String scoreTxt = "Score";
@@ -167,8 +166,8 @@ public class GameField extends JPanel implements ActionListener {
         for(int i = 1; i < snakeSize; i++){
             if((snakeBody.get(0).getX() == snakeBody.get(i).getX()
                     && snakeBody.get(0).getY() == snakeBody.get(i).getY())
-                    || (snakeBody.get(0).getX() < 0 || snakeBody.get(0).getX() >= 500)
-                    || (snakeBody.get(0).getY() < 0 || snakeBody.get(0).getY() >= 500)
+                    || (snakeBody.get(0).getX() < 0 || snakeBody.get(0).getX() > 500)
+                    || (snakeBody.get(0).getY() < 0 || snakeBody.get(0).getY() > 500)
             ){
                 endGame(g);
             }
