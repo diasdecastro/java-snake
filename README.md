@@ -14,4 +14,4 @@ Snake Movement:
 **S = down** \
 **D = right** 
 
-After "Game Over" press Space to restart the game.
+After **"Game Over"** press **Space** to restart the game.
